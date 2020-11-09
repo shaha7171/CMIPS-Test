@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78697" started-at="2020-11-09T19:25:26Z" finished-at="2020-11-09T19:26:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78697" started-at="2020-11-09T19:25:26Z" finished-at="2020-11-09T19:26:45Z">
+      <class name="ExcelValidation.ExcelVerification">
+        <test-method status="PASS" signature="init()[pri:0, instance:ExcelValidation.ExcelVerification@3e58a80e]" name="init" is-config="true" duration-ms="17980" started-at="2020-11-09T19:25:26Z" finished-at="2020-11-09T19:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="TestLogic(java.util.Hashtable)[pri:1, instance:ExcelValidation.ExcelVerification@3e58a80e]" name="TestLogic" duration-ms="24580" started-at="2020-11-09T19:25:44Z" data-provider="CMStatus" finished-at="2020-11-09T19:26:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TRIGGER_STATUS=, IHSS_CS_ID=0117438, CMIPS_STS_COD=ELIGIBLE, ELIG_END_DT=, CNTY_CODE=01, ELIG_BGN_DT=28-SEP-12, SAWSINTERFACETRIGGERID=, CASEID=, IHSSAUTHORIZATIONID=, CM_COUNTY_CODE=01        , CIN=99325047E, IHSS_CNTY_CD=01, CM_CASE_STATUS=Eligible, IHSS_STS_DT=01-JAN-13, IHSS_NTFY_DT=04-MAR-13}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogic -->
+        <test-method status="PASS" signature="close()[pri:0, instance:ExcelValidation.ExcelVerification@3e58a80e]" name="close" is-config="true" duration-ms="965" started-at="2020-11-09T19:26:09Z" finished-at="2020-11-09T19:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="init()[pri:0, instance:ExcelValidation.ExcelVerification@3e58a80e]" name="init" is-config="true" duration-ms="9191" started-at="2020-11-09T19:26:10Z" finished-at="2020-11-09T19:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="TestLogic(java.util.Hashtable)[pri:1, instance:ExcelValidation.ExcelVerification@3e58a80e]" name="TestLogic" duration-ms="25071" started-at="2020-11-09T19:26:19Z" data-provider="CMStatus" finished-at="2020-11-09T19:26:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TRIGGER_STATUS=, IHSS_CS_ID=0117349, CMIPS_STS_COD=ELIGIBLE, ELIG_END_DT=, CNTY_CODE=01, ELIG_BGN_DT=24-OCT-11, SAWSINTERFACETRIGGERID=, CASEID=, IHSSAUTHORIZATIONID=, CM_COUNTY_CODE=01        , CIN=90571947E, IHSS_CNTY_CD=01, CM_CASE_STATUS=Eligible, IHSS_STS_DT=01-JAN-13, IHSS_NTFY_DT=04-MAR-13}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogic -->
+        <test-method status="PASS" signature="close()[pri:0, instance:ExcelValidation.ExcelVerification@3e58a80e]" name="close" is-config="true" duration-ms="860" started-at="2020-11-09T19:26:44Z" finished-at="2020-11-09T19:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ExcelValidation.ExcelVerification -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
